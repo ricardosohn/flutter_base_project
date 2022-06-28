@@ -1,16 +1,16 @@
-# flutter_base_project
+# Flutter Base Project
 
-A new Flutter project.
+A Flutter project that is gonna be used as a starting point for some projects.
 
-## Getting Started
+## Running Tests:
+`flutter test --machine --coverage > tests.output`
 
-This project is a starting point for a Flutter application.
+## Running SonarQube
+Assuming that: 
+- You have sonar-scanner installed;
+- SonarQube is running on `http://localhost:9000`;
+- The Project Key is `flutter_base_project`;
+- The Project Token is `sqp_f770b6ae69c13bba5abbf1b9e39f1c1007f9601c`;
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Then you run the following command:
+`sonar-scanner.bat -D"sonar.projectKey=flutter_base_project" -D"sonar.host.url=http://localhost:9000" -D"sonar.login=sqp_f770b6ae69c13bba5abbf1b9e39f1c1007f9601c"`

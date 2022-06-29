@@ -52,3 +52,12 @@ app.*.map.json
 # SonarQube
 .sonar/
 .scannerwork/
+
+# Generated dart files
+*.config.dart
+*.g.dart
+
+# Mason
+mason-lock.json
+bricks.json
+mason.yaml

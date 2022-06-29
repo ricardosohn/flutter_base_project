@@ -30,6 +30,21 @@ The output will be a folder with:
 
 # Testing
 
+### Code Metrics
+Dart Code Metrics is a static analysis tool that helps you analyse and improve your code quality.
+
+- Reports code metrics
+- Provides additional rules for the dart analyzer
+- Checks for anti-patterns
+- Checks unused *.dart files
+- Checks unused l10n
+- Can be used as CLI, analyzer plugin or library
+
+To execute it, run the following command:  
+`flutter pub run dart_code_metrics:metrics analyze lib`  
+
+The results will be shown in the console.
+
 ### Running Tests:
 `flutter test --machine --coverage > tests.output`
 

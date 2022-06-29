@@ -2,7 +2,6 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class AppStorage {
-  // ignore: unused_field
   Box<dynamic>? _box;
 
   /// for initialling app local storage

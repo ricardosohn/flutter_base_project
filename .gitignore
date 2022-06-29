@@ -61,3 +61,6 @@ app.*.map.json
 mason-lock.json
 bricks.json
 mason.yaml
+
+# Testing
+tests.output

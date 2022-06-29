@@ -14,12 +14,9 @@ class App extends ConsumerWidget {
     final router = ref.read(routerProvider);
 
     return MaterialApp.router(
-      // TODO: add your app name here
       title: 'Hello World',
-      // TODO: add your localization here
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      // TODO: add your theme here
       theme: appTheme.lightTheme,
       darkTheme: appTheme.darkTheme,
       routeInformationParser: router.routeInformationParser,

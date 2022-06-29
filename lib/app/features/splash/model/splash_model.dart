@@ -1,3 +1,1 @@
-class SplashModel {
-  // TODO: add your model here
-}
+class SplashModel {}

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-class SplashView extends ConsumerWidget {
-  const SplashView({super.key});
+class HomeView extends ConsumerWidget {
+  const HomeView({super.key});
 
-  static const routeName = '/splash';
+  static const routeName = '/home';
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

@@ -3,12 +3,11 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class AppStorage {
   // ignore: unused_field
-  Box? _box;
+  Box<dynamic>? _box;
 
   /// for initialling app local storage
   Future<void> initAppStorage() async {
     await Hive.initFlutter();
-    // TODO: add your storage name here
     _box = await Hive.openBox('hello world');
   }
 

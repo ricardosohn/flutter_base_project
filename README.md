@@ -2,6 +2,9 @@
 
 A Flutter project that is gonna be used as a starting point for some projects.
 
+## Creating new modules
+Just run `mason make riverpod_module --name modulename` on the terminal in the features folder and all the starting files will be generated.
+
 ## Running Tests:
 `flutter test --machine --coverage > tests.output`
 
